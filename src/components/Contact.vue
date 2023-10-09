@@ -35,7 +35,7 @@
         <v-sheet class="w-100 py-5">
           <h1 class="text-h5">Puedes escribirme al <a class="text-decoration-none bg-yellow-darken-4  pl-3 pr-5"
               href="tel:whatsapp://send?phone=+5493517565446"><span @click.prevent="redirectToWhatsApp">+54 9
-                341-7565446</span></a></h1>
+                351-7565446</span></a></h1>
         </v-sheet>
 
         <v-divider :thickness="2" color="error"></v-divider>
@@ -77,7 +77,7 @@ const redirectToAbout = () => {
 };
 
 const redirectToWhatsApp = () => {
-  window.location.href = "https://api.whatsapp.com/send?phone=5493417565446";
+  window.location.href = "https://api.whatsapp.com/send?phone=5493517565446";
 };
 </script>
   
