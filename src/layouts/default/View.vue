@@ -1,7 +1,35 @@
+<style scoped>
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+  transition: background-color 0.3s; 
+}
+
+.whatsapp:hover {
+  background-color: #128C7E; 
+  transform: scale(1.1);
+}
+
+.whatsapp-icon {
+  margin-top: 15px;
+}
+</style>
+
 <template>
   <v-main>
     <router-view />
     <br><br>
+    <a href="https://wa.me/5493517565446?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp"
+      target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
     <v-footer elevation="5" class="d-flex flex-column font-weight-thin">
       <div class="d-flex w-100 align-center px-4">
         <strong>
