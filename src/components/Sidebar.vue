@@ -1,5 +1,5 @@
 <template>
-    <v-navigation-drawer :width="203">
+    <v-navigation-drawer :width="210" elevation="3" >
         <v-list-item @click="redirectTHome" class="custom-btn" link title="< Home />"></v-list-item>
         <v-divider></v-divider>
         <v-list-item @click="redirectToProjects" class="custom-btn" link title=" <Proyectos />"></v-list-item>

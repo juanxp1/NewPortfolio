@@ -7,8 +7,8 @@
         <v-divider class="border-opacity-0"></v-divider>
 
         <v-sheet class="mt-10">
-            <h1 class="text-h4 font-weight-thin">Te invito a conocer un poco más sobre mí a través de mi <span
-                    class="bg-error">Historia.</span></h1>
+            <h1 class="text-h4 font-weight-thin">Te invito a conocer un poco más sobre mí a través de mi una mini <span
+                    class="bg-error">History.</span></h1>
         </v-sheet>
         <br>
         <v-sheet class="text-end w-75 py-1 mt-10">
