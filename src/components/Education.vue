@@ -13,7 +13,7 @@
             <v-col cols="12" md="10">
                 <v-sheet class="w-100 hover">
                     <h1 class="text-h5 w-auto text-high-emphasis">Full Stack Web Developer .</h1>
-                    <p class='text-h6 text-medium-emphasis'>Henry Bootcamp, 1 año de formación teórico-práctica. (2022 -
+                    <p class='text-h6 text-medium-emphasis'> Bootcamp, 1 año de formación teórico-práctica. (2022 -
                         2023)</p>
                 </v-sheet>
 
