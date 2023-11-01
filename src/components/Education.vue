@@ -21,7 +21,7 @@
 
                 <v-sheet class="w-100 hover">
                     <h1 class="text-h5 w-auto text-high-emphasis">Diseño Web.</h1>
-                    <p class='text-h6 text-medium-emphasis'>FreeCodeCamp. 4 meses (2022)</p>
+                    <p class='text-h6 text-medium-emphasis'>FreeCodeCamp. 4 meses (2022)</p>cd
                 </v-sheet>
 
                 <v-divider :thickness="2" color="error"></v-divider>

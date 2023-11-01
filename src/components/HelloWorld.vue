@@ -4,7 +4,9 @@
       <v-col cols="12">
         <v-sheet>
           <h1 class="text-h1">Hola !</h1>
-          <h1 class="text-h2">Bienvenidos a mi Portfolio.</h1>
+          <h1 class="text-h2">Me llamo <span class="bg-primary pl-2 pr-4">Juan :)</span> <br><span class=""></span>
+          </h1>
+          <h2 class="text-h3 font-weight-light mt-3">Bienvenidos a mi Portfolio.</h2>
         </v-sheet>
       </v-col>
       <v-divider class="border-opacity-0"></v-divider>
@@ -55,5 +57,4 @@ const redirectToProjects = () => {
   background-color: #ffff;
   color: #070707;
 }
-
 </style>

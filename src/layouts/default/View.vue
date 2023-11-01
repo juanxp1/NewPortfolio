@@ -1,12 +1,12 @@
 
 <template>
-  <v-main>
+  <v-main class="v-main">
     <router-view />
     <br><br>
     <a href="https://wa.me/5493517565446?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp"
       target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-    <div class="div">
-      <v-footer elevation="5" class="d-flex flex-column font-weight-thin">
+      
+      <v-footer elevation="5" class="d-flex flex-column font-weight-thin mt-15">
         <div class="d-flex w-100 align-center px-4">
           <strong>
             <p class="font-weight-thin">¡También puedes contactarme por redes sociales!</p>
@@ -18,14 +18,12 @@
             @click="redirectToSocialMedia(icon)"></v-btn>
         </div>
       </v-footer>
-    </div>
-
   </v-main>
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router';
-
+import pic from '@/assets/pic.jpg'
+const img = pic;
 const icons = [
   'mdi-github',
   'mdi-linkedin',
@@ -77,4 +75,5 @@ const redirectToSocialMedia = (icon) => {
 .whatsapp-icon {
   margin-top: 15px;
 }
+
 </style>
