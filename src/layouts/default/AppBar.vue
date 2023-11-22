@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar flat>
+  <v-app-bar elevation-10 class="bg-indigo-lighten-5">
     <v-app-bar-title>
       <v-icon :icon="getRouteIcon" />
       JUAN JOSE BIANCHI
