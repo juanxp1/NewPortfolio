@@ -16,7 +16,7 @@
       <v-divider class="border-opacity-0"></v-divider>
       <br>
 
-      <v-col cols="12" md="6">
+      <v-col cols="12" md="5">
         <v-sheet class="w-100 h-100">
 
           <h1 class="text-h2 text-center font-weight-thin end">Front-end.</h1>
@@ -58,7 +58,7 @@
 
       <v-divider vertical :thickness="0"></v-divider>
 
-      <v-col cols="12" md="6">
+      <v-col cols="12" md="5">
         <v-sheet class="w-100 h-100">
           <h1 class="text-h2 text-center font-weight-thin bg-black end">Back-end.</h1>
           <v-sheet class="d-flex">

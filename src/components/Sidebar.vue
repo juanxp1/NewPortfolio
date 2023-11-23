@@ -1,5 +1,5 @@
 <template>
-    <v-navigation-drawer :width="170" elevation="15" class="text-start api bg-indigo-lighten-5">
+    <v-navigation-drawer :width="160"  elevation="15" class="text-start api">
         <v-list-item @click="redirectHome" class="custom-btn" link title="&lt; Inicio &gt;"></v-list-item>
 
         <v-list-item @click="redirectToProjects" class="custom-btn" link title="&lt; Proyectos &gt;"></v-list-item>

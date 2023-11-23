@@ -6,7 +6,7 @@
     <a href="https://wa.me/5493517565446?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp"
       target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
       
-      <v-footer elevation="5" class="d-flex flex-column font-weight-thin mt-15">
+      <v-footer elevation="5" class="d-flex flex-column font-weight-thin bg-indigo-lighten-3"  style="position: fixed; bottom: 0; width: 92%;">
         <div class="d-flex w-100 align-center px-4">
           <strong>
             <p class="font-weight-thin">¡También puedes contactarme por redes sociales!</p>
@@ -56,7 +56,7 @@ const redirectToSocialMedia = (icon) => {
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 40px;
+  bottom: 100px;
   right: 40px;
   background-color: #25d366;
   color: #FFF;
