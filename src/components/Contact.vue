@@ -52,16 +52,16 @@
 
     </v-row>
 
-    <v-sheet class="mt-10">
+    <!-- <v-sheet class="mt-10">
       <h1 class="text-h4 font-weight-thin">Estamos llegando al final, ¿te gustaría conocer más <span class="bg-error">sobre mí ?</span></h1>
     </v-sheet>
 
     <v-sheet class="text-end w-75 py-1 mt-10">
       <v-col cols="auto">
-        <v-btn @click="redirectToAbout" size="x-large" elevation="10" class="text-h4 font-weight-thin custom-btn">Vamos
+        <v-btn  size="x-large" elevation="10" class="text-h4 font-weight-thin custom-btn">Vamos
           allá!</v-btn>
       </v-col>
-    </v-sheet>
+    </v-sheet> -->
   </v-container>
 </template>
   

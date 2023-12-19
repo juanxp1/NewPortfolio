@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <v-container>
         <v-sheet>
             <h1 class="text-h2">¡Hemos llegado al final del portfolio! ¡Gracias por tomarte el tiempo para conocer mis
@@ -45,4 +45,4 @@ const redirectToHistory = () => {
 .espacio {
     min-height: 50px;
 }
-</style>
+</style> -->

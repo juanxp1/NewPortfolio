@@ -9,8 +9,8 @@
         <v-list-item @click="redirectToEducation" class="custom-btn" link title="&lt; Educación &gt;"></v-list-item>
 
         <v-list-item @click="redirectToContact" class="custom-btn" link title="&lt; Contacto &gt;"></v-list-item>
-        <v-list-item @click="redirectToAbout" class="custom-btn" color="primary" link
-            title="&lt; Acerca de &gt;"></v-list-item>
+        <!-- <v-list-item @click="redirectToAbout" class="custom-btn" color="primary" link
+            title="&lt; Acerca de &gt;"></v-list-item> -->
     </v-navigation-drawer>
 </template>
 
