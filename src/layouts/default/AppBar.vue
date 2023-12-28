@@ -7,11 +7,10 @@
     <template v-slot:append>
       <v-btn v-if="!liked" flat icon color="blue lighten-2" @click="handleLike">
         <v-icon>mdi-thumb-up</v-icon>
-        <div>{{ likes }}</div>
+
       </v-btn>
       <v-btn v-if="!disliked" flat icon color="red lighten-2" @click="handleDislike">
         <v-icon>mdi-thumb-down</v-icon>
-        <div>{{ dislikes }}</div>
       </v-btn>
       <div v-else>
         <h4 class="blue lighten-2"> Gracias por tu Feedback 😊</h4>
