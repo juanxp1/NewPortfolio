@@ -4,14 +4,31 @@
       <v-icon :icon="getRouteIcon" />
       JUAN JOSE BIANCHI
     </v-app-bar-title>
+    <template v-slot:append>
+      <v-btn v-if="!liked" flat icon color="blue lighten-2" @click="handleLike">
+        <v-icon>mdi-thumb-up</v-icon>
+        <div>{{ likes }}</div>
+      </v-btn>
+      <v-btn v-if="!disliked" flat icon color="red lighten-2" @click="handleDislike">
+        <v-icon>mdi-thumb-down</v-icon>
+        <div>{{ dislikes }}</div>
+      </v-btn>
+      <div v-else>
+        <h4 class="blue lighten-2"> Gracias por tu Feedback 😊</h4>
+      </div>
+    </template>
   </v-app-bar>
 </template>
 
 <script setup>
 import { useRoute } from 'vue-router';
-import { computed } from 'vue'
+import { computed, ref } from 'vue';
 
 const route = useRoute();
+const likes = ref(parseInt(localStorage.getItem('likes')) || 0);
+const dislikes = ref(parseInt(localStorage.getItem('dislikes')) || 0);
+const liked = ref(false);
+const disliked = ref(false);
 
 const getRouteIcon = computed(() => {
   if (route.path === '/') {
@@ -32,4 +49,22 @@ const getRouteIcon = computed(() => {
     return 'mdi-circle-slice-6';
   }
 });
+
+const handleLike = () => {
+  if (!liked.value) {
+    likes.value += 1;
+    localStorage.setItem('likes', likes.value.toString());
+    liked.value = true;
+    disliked.value = true;
+  }
+};
+
+const handleDislike = () => {
+  if (!disliked.value) {
+    dislikes.value += 1;
+    localStorage.setItem('dislikes', dislikes.value.toString());
+    disliked.value = true;
+    liked.value = true;
+  }
+};
 </script>
