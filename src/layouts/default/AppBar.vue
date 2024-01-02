@@ -2,12 +2,12 @@
   <v-app-bar elevation-10 class="bg-indigo-lighten-0">
     <v-app-bar-title>
       <v-icon :icon="getRouteIcon" />
-      JUAN JOSE BIANCHI
+      <span class="name"> JUAN JOSE BIANCHI</span>
+
     </v-app-bar-title>
     <template v-slot:append>
       <v-btn v-if="!liked" flat icon color="blue lighten-2" @click="handleLike">
         <v-icon>mdi-thumb-up</v-icon>
-
       </v-btn>
       <v-btn v-if="!disliked" flat icon color="red lighten-2" @click="handleDislike">
         <v-icon>mdi-thumb-down</v-icon>
@@ -67,3 +67,10 @@ const handleDislike = () => {
   }
 };
 </script>
+<style scoped>
+.bg-warning {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+</style>

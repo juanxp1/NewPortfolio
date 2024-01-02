@@ -25,8 +25,10 @@
 
         <v-sheet class="w-100 py-5">
           <h1 class="text-h5">Puedes contactarme a
-            <a class="text-decoration-none bg-blue-grey-lighten-4 pl-3 pr-5"
-              href="mailto:juanjosebianchi90@gmail.com">juanjosebianchi90@gmail.com</a>
+            <a class="text-decoration-none bg-blue-grey-lighten-4 pl-3 pr-0"
+              href="mailto:juanjosebianchi90@gmail.com">
+              juanjosebianchi90@gmail.com
+            </a>
           </h1>
         </v-sheet>
 
@@ -53,12 +55,14 @@
     </v-row>
 
     <v-sheet class="mt-10">
-      <h1 class="text-h4 font-weight-thin">Estamos llegando al final, ¿te gustaría conocer más <span class="bg-error">sobre mí ?</span></h1>
+      <h1 class="text-h4 font-weight-thin">Estamos llegando al final, ¿te gustaría conocer más <span
+          class="bg-error">sobre mí ?</span></h1>
     </v-sheet>
 
     <v-sheet class="text-end w-75 py-1 mt-10">
       <v-col cols="auto">
-        <v-btn  size="x-large" elevation="10" href="https://bianchi.vercel.app/" class="text-h4 font-weight-thin custom-btn">Vamos
+        <v-btn size="x-large" elevation="10" href="https://bianchi.vercel.app/"
+          class="text-h4 font-weight-thin custom-btn">Vamos
           allá!</v-btn>
       </v-col>
     </v-sheet>
@@ -86,7 +90,8 @@ const redirectToWhatsApp = () => {
   transition: background-color 0.4s, color 0.4s;
   background-color: #070707;
   color: #ffff;
-  @media (max-width: 768px){
+
+  @media (max-width: 768px) {
     margin-bottom: 100px;
     margin-left: 60px;
   }
@@ -95,5 +100,4 @@ const redirectToWhatsApp = () => {
 .custom-btn:hover {
   background-color: #ffff;
   color: #070707;
-}
-</style>
+}</style>
