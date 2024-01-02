@@ -148,6 +148,11 @@ const redirectToEducation = () => {
   transition: background-color 0.4s, color 0.4s;
   background-color: #070707;
   color: #ffff;
+
+  @media (max-width: 768px) {
+    margin-bottom: 100px;
+    margin-left: 60px;
+  }
 }
 
 .custom-btn:hover {

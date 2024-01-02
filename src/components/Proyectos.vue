@@ -105,6 +105,10 @@ const updateDescription = (value) => {
     transition: background-color 0.3s, color 0.3s;
     background-color: #070707;
     color: #ffff;
+    @media (max-width: 768px){
+    margin-bottom: 100px;
+    margin-left: 60px;
+  }
 }
 
 .custom-btn:hover {
