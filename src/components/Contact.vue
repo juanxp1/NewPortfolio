@@ -44,7 +44,7 @@
 
         <v-sheet class="w-100 py-5">
           <h1 class="text-h5">Eche un vistazo a mi <a class="text-decoration-none bg-info pl-3 pr-5" :href="cv"
-              download>Resumem</a> para obtener más
+              download>Resumen</a> para obtener más
             detalles sobre mí. ¡Estoy
             abierto a comentarios y sugerencias!</h1>
         </v-sheet>
